@@ -26,8 +26,8 @@ def memory():
 class EBIagent:
     def __init__(self,params):
 
-        #self.OPENAI_API_KEY=os.getenv('OPENAI_API_KEY') #pegar do .env
-        self.OPENAI_API_KEY="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"
+        self.OPENAI_API_KEY=os.getenv('OPEN_API_KEY') #pegar do .env
+        print(self.OPENAI_API_KEY)
         self.model = ChatOpenAI(openai_api_key=self.OPENAI_API_KEY,temperature=0.5, model="gpt-4o")
 
         self.exibir_ebi = exibir_ebi

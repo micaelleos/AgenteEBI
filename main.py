@@ -2,11 +2,9 @@
 import streamlit as st
 from src.EBIagent import EBIagent
 from styles import *
-from dotenv import load_dotenv
+import os
 from gerador_pdf import *
 from textos import info
-
-load_dotenv()  # take environment variables from .env.
 
 styles()
 
