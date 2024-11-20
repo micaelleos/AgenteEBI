@@ -1,0 +1,8 @@
+streamlit==1.37.0
+langchain
+openai
+langchain-community
+pydantic
+langchain_openai
+python-dotenv
+fpdf
