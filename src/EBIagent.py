@@ -27,7 +27,6 @@ class EBIagent:
     def __init__(self,params):
 
         self.OPENAI_API_KEY=os.getenv('OPEN_API_KEY') #pegar do .env
-        print(self.OPENAI_API_KEY)
         self.model = ChatOpenAI(openai_api_key=self.OPENAI_API_KEY,temperature=0.5, model="gpt-4o")
 
         self.exibir_ebi = exibir_ebi
